@@ -1,26 +1,232 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A313a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="boI-XY-7hO">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Schedule Table View Controller-->
+        <scene sceneID="J4e-fa-eO8">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <tableViewController id="Uvk-kY-Y5y" customClass="ScheduleTableViewController" customModule="Schedule" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="60" sectionHeaderHeight="28" sectionFooterHeight="28" id="NM3-mN-GKh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="dataSource" destination="Uvk-kY-Y5y" id="hht-DL-7UM"/>
+                            <outlet property="delegate" destination="Uvk-kY-Y5y" id="w7l-qs-5AZ"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="8ZW-yX-p57"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BdN-eP-Du4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="3662" y="-240"/>
+        </scene>
+        <!--Schedule Table View Controller-->
+        <scene sceneID="uaN-M9-nbR">
+            <objects>
+                <tableViewController id="qGx-1b-rlm" customClass="ScheduleTableViewController" customModule="Schedule" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="6cw-Ix-nBI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="dataSource" destination="qGx-1b-rlm" id="ePU-vh-1N8"/>
+                            <outlet property="delegate" destination="qGx-1b-rlm" id="7tP-Pp-c8b"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="wtg-da-Rcp"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7xC-tN-FCK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3662" y="439"/>
+        </scene>
+        <!--Schedule Table View Controller-->
+        <scene sceneID="AGT-nY-QkV">
+            <objects>
+                <tableViewController id="dAf-kW-AXe" customClass="ScheduleTableViewController" customModule="Schedule" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="6F3-AX-T2X">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="dataSource" destination="dAf-kW-AXe" id="0Oi-7t-1ba"/>
+                            <outlet property="delegate" destination="dAf-kW-AXe" id="zjE-vL-LH1"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="ENi-V1-jVu"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LUh-Sm-0hE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5632.8000000000002" y="-241.52923538230885"/>
+        </scene>
+        <!--Schedule Table View Controller-->
+        <scene sceneID="qvk-Le-gSU">
+            <objects>
+                <tableViewController id="bkn-du-YuP" customClass="ScheduleTableViewController" customModule="Schedule" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="D8k-Hx-WA6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="dataSource" destination="bkn-du-YuP" id="dO9-U8-OjJ"/>
+                            <outlet property="delegate" destination="bkn-du-YuP" id="LnD-dd-S9G"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="u2F-nl-6av"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sbF-Pe-eRh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5632.8000000000002" y="438.53073463268368"/>
+        </scene>
+        <!--Schedule Table View Controller-->
+        <scene sceneID="xBf-nP-gFi">
+            <objects>
+                <tableViewController id="9n4-v4-w1v" customClass="ScheduleTableViewController" customModule="Schedule" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="byl-GE-3ZN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="dataSource" destination="9n4-v4-w1v" id="UzF-82-M8u"/>
+                            <outlet property="delegate" destination="9n4-v4-w1v" id="suv-Be-yzy"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="eLD-zO-Edp"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qKz-6u-CJn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7704.8000000000002" y="-241.52923538230885"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="qS1-4r-VBn">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="boI-XY-7hO" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="igy-d7-G5X"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="nov-QX-YrA">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="dCt-wO-gfC" kind="relationship" relationship="viewControllers" id="hLJ-eh-Sl7"/>
+                        <segue destination="uJx-5V-T1A" kind="relationship" relationship="viewControllers" id="D6E-8Q-lMk"/>
+                        <segue destination="SLQ-FU-ffV" kind="relationship" relationship="viewControllers" id="JTR-LD-xBg"/>
+                        <segue destination="GZd-Md-2Nx" kind="relationship" relationship="viewControllers" id="NdQ-sE-wRe"/>
+                        <segue destination="So6-y4-EBV" kind="relationship" relationship="viewControllers" id="cZZ-7T-D4Z"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DyU-uh-val" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1450" y="176"/>
+        </scene>
+        <!--Monday-->
+        <scene sceneID="2yC-RJ-Xgj">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dCt-wO-gfC" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Monday" image="Monday" id="jNv-kD-Rj3"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="T7k-Ts-oqF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Uvk-kY-Y5y" kind="relationship" relationship="rootViewController" id="Ymj-sm-kan"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N4f-gb-B2a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2902" y="-240"/>
+        </scene>
+        <!--Tuesday-->
+        <scene sceneID="Tgv-9q-6v9">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uJx-5V-T1A" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Tuesday" image="Tuesday" id="ve2-14-vDT"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="19G-sZ-ZEA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="qGx-1b-rlm" kind="relationship" relationship="rootViewController" id="kLK-FQ-GOO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TO3-7K-tsT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2902" y="439"/>
+        </scene>
+        <!--Wednesday-->
+        <scene sceneID="yf4-07-r6D">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="SLQ-FU-ffV" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Wednesday" image="Wednesday" id="fPG-XC-yQ8"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ytr-Qi-Kf1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="dAf-kW-AXe" kind="relationship" relationship="rootViewController" id="QNo-cf-a0x"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R4d-Lr-QIM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4693.6000000000004" y="-241.52923538230885"/>
+        </scene>
+        <!--Thursday-->
+        <scene sceneID="Ijv-xH-xXa">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="GZd-Md-2Nx" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Thursday" image="Thursday" id="hoZ-rJ-JuC"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="QKy-1T-fpV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="bkn-du-YuP" kind="relationship" relationship="rootViewController" id="qsQ-W1-Xaj"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kxu-FT-gNW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4693.6000000000004" y="438.53073463268368"/>
+        </scene>
+        <!--Friday-->
+        <scene sceneID="gaX-aX-h5P">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="So6-y4-EBV" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Friday" image="Friday" id="18G-oY-gyw"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="aI6-4z-ycm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="9n4-v4-w1v" kind="relationship" relationship="rootViewController" id="HFA-kL-Q37"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m8m-Dn-j8Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6765.6000000000004" y="-241.52923538230885"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Friday" width="25" height="25"/>
+        <image name="Monday" width="25" height="25"/>
+        <image name="Thursday" width="25" height="25"/>
+        <image name="Tuesday" width="25" height="25"/>
+        <image name="Wednesday" width="31" height="25"/>
+    </resources>
 </document>

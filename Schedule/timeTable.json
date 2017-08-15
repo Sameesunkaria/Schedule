@@ -1,0 +1,237 @@
+{
+    "tables": {
+        "Third Year": {
+            "groups": {
+                "COE8": {
+                    "Monday": [
+                               {
+                               "courseCode": "UCS521",
+                               "type": "Lecture",
+                               "courseTitle": "Artificial Intelligence",
+                               "startTime": "0800",
+                               "endTime": "0900",
+                               "location": "T103",
+                               "instructor": "NT9"
+                               },
+                               {
+                               "courseCode": "UCS519",
+                               "type": "Lecture",
+                               "courseTitle": "Computer Architecture and Organization",
+                               "startTime": "0900",
+                               "endTime": "1000",
+                               "location": "T103",
+                               "instructor": "RUB"
+                               },
+                               {
+                               "courseCode": "UML501",
+                               "type": "Lecture",
+                               "courseTitle": "Machine Learning",
+                               "startTime": "1000",
+                               "endTime": "1100",
+                               "location": "T103",
+                               "instructor": "SIS"
+                               },
+                               {
+                               "courseCode": "UCS503",
+                               "type": "Lecture",
+                               "courseTitle": "Software Engineering",
+                               "startTime": "1100",
+                               "endTime": "1200",
+                               "location": "T103",
+                               "instructor": "ASH"
+                               },
+                               {
+                               "courseCode": "UCS616",
+                               "type": "Practical",
+                               "courseTitle": "Advanced Data Structures and Algorithms",
+                               "startTime": "1500",
+                               "endTime": "1700",
+                               "location": "CAG LAB",
+                               "instructor": "RKU"
+                               }
+                               ],
+                    "Tuesday": [
+                                {
+                                "courseCode": "UML501",
+                                "type": "Practical",
+                                "courseTitle": "Machine Learning",
+                                "startTime": "0800",
+                                "endTime": "1000",
+                                "location": "CS6 LAB",
+                                "instructor": "RA11"
+                                },
+                                {
+                                "courseCode": "UML501",
+                                "type": "Lecture",
+                                "courseTitle": "Machine Learning",
+                                "startTime": "1000",
+                                "endTime": "1100",
+                                "location": "T103",
+                                "instructor": "SIS"
+                                },
+                                {
+                                "courseCode": "UCS503",
+                                "type": "Lecture",
+                                "courseTitle": "Software Engineering",
+                                "startTime": "1100",
+                                "endTime": "1200",
+                                "location": "T103",
+                                "instructor": "ASH"
+                                },
+                                {
+                                "courseCode": "UCS521",
+                                "type": "Tutorial",
+                                "courseTitle": "Artificial Intelligence",
+                                "startTime": "1200",
+                                "endTime": "1300",
+                                "location": "G254B",
+                                "instructor": "NT9"
+                                },
+                                {
+                                "courseCode": "UCS616",
+                                "type": "Lecture",
+                                "courseTitle": "Advanced Data Structures and Algorithms",
+                                "startTime": "1400",
+                                "endTime": "1500",
+                                "location": "T103",
+                                "instructor": "RAJ"
+                                }
+                                ],
+                    "Wednesday": [
+                                  {
+                                  "courseCode": "UCS519",
+                                  "type": "Lecture",
+                                  "courseTitle": "Computer Architecture and Organization",
+                                  "startTime": "0800",
+                                  "endTime": "0900",
+                                  "location": "T103",
+                                  "instructor": "RUB"
+                                  },
+                                  {
+                                  "courseCode": "UCS701",
+                                  "type": "Lecture",
+                                  "courseTitle": "Theory of Computation",
+                                  "startTime": "0900",
+                                  "endTime": "1000",
+                                  "location": "T103",
+                                  "instructor": "VG"
+                                  },
+                                  {
+                                  "courseCode": "UCS701",
+                                  "type": "Tutorial",
+                                  "courseTitle": "Theory of Computation",
+                                  "startTime": "1100",
+                                  "endTime": "1200",
+                                  "location": "G254B",
+                                  "instructor": "VG"
+                                  },
+                                  {
+                                  "courseCode": "UCS616",
+                                  "type": "Lecture",
+                                  "courseTitle": "Advanced Data Structures and Algorithms",
+                                  "startTime": "1300",
+                                  "endTime": "1400",
+                                  "location": "T103",
+                                  "instructor": "RAJ"
+                                  },
+                                  {
+                                  "courseCode": "UCS503",
+                                  "type": "Lecture",
+                                  "courseTitle": "Software Engineering",
+                                  "startTime": "1400",
+                                  "endTime": "1500",
+                                  "location": "T103",
+                                  "instructor": "ASH"
+                                  },
+                                  {
+                                  "courseCode": "UCS521",
+                                  "type": "Lecture",
+                                  "courseTitle": "Artificial Intelligence",
+                                  "startTime": "1500",
+                                  "endTime": "1600",
+                                  "location": "G254B",
+                                  "instructor": "NT9"
+                                  }
+                                  ],
+                    "Thursday": [
+                                 {
+                                 "courseCode": "UCS616",
+                                 "type": "Lecture",
+                                 "courseTitle": "Advanced Data Structures and Algorithms",
+                                 "startTime": "1000",
+                                 "endTime": "1100",
+                                 "location": "T103",
+                                 "instructor": "RAJ"
+                                 },
+                                 {
+                                 "courseCode": "UCS519",
+                                 "type": "Lecture",
+                                 "courseTitle": "Computer Architecture and Organization",
+                                 "startTime": "1100",
+                                 "endTime": "1200",
+                                 "location": "T103",
+                                 "instructor": "RUB"
+                                 },
+                                 {
+                                 "courseCode": "UCS701",
+                                 "type": "Lecture",
+                                 "courseTitle": "Theory of Computation",
+                                 "startTime": "1400",
+                                 "endTime": "1500",
+                                 "location": "G254B",
+                                 "instructor": "VG"
+                                 }
+                                 ],
+                    "Friday": [
+                               
+                               {
+                               "courseCode": "UCS701",
+                               "type": "Lecture",
+                               "courseTitle": "Theory of Computation",
+                               "startTime": "0800",
+                               "endTime": "0900",
+                               "location": "T103",
+                               "instructor": "VG"
+                               },
+                               {
+                               "courseCode": "UML501",
+                               "type": "Lecture",
+                               "courseTitle": "Machine Learning",
+                               "startTime": "0900",
+                               "endTime": "1000",
+                               "location": "T103",
+                               "instructor": "SIS"
+                               },
+                               {
+                               "courseCode": "UCS503",
+                               "type": "Practical",
+                               "courseTitle": "Software Engineering",
+                               "startTime": "1000",
+                               "endTime": "1200",
+                               "location": "T103",
+                               "instructor": "ASH"
+                               },
+                               {
+                               "courseCode": "UCS521",
+                               "type": "Lecture",
+                               "courseTitle": "Artificial Intelligence",
+                               "startTime": "1400",
+                               "endTime": "1500",
+                               "location": "G254B",
+                               "instructor": "NT9"
+                               },
+                               {
+                               "courseCode": "UCS519",
+                               "type": "Practical",
+                               "courseTitle": "Computer Architecture and Organization",
+                               "startTime": "1500",
+                               "endTime": "1700",
+                               "location": "UG CS7 LAB",
+                               "instructor": "NT7"
+                               }
+                               ]
+                }
+            }
+        }
+    }
+}

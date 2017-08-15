@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16A313a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Time Table Cell" rowHeight="60" id="UgV-4w-dvL" customClass="CourseCell" customModule="Schedule" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="UgV-4w-dvL" id="Sb1-gE-O6j">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Course Code" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EKY-tO-7Ol">
+                        <rect key="frame" x="8" y="8" width="77.5" height="14.5"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Course Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u3L-3h-8rl">
+                        <rect key="frame" x="8" y="31" width="93" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0800 to 0900" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dko-4S-hUf">
+                        <rect key="frame" x="260" y="8" width="107" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instructor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L1O-4v-51j">
+                        <rect key="frame" x="306" y="36" width="61" height="14.5"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ase-cI-OD7">
+                        <rect key="frame" x="249" y="35.5" width="49" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xQR-V5-Tjl">
+                        <rect key="frame" x="93" y="7.5" width="28" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="topMargin" secondItem="EKY-tO-7Ol" secondAttribute="top" id="4N3-AF-hd7"/>
+                    <constraint firstItem="xQR-V5-Tjl" firstAttribute="leading" secondItem="EKY-tO-7Ol" secondAttribute="trailing" constant="8" symbolic="YES" id="7mV-a5-jdV"/>
+                    <constraint firstItem="u3L-3h-8rl" firstAttribute="leading" secondItem="EKY-tO-7Ol" secondAttribute="leading" id="9ey-Ig-iOQ"/>
+                    <constraint firstItem="xQR-V5-Tjl" firstAttribute="baseline" secondItem="EKY-tO-7Ol" secondAttribute="baseline" id="AHo-T9-kGP"/>
+                    <constraint firstItem="Ase-cI-OD7" firstAttribute="baseline" secondItem="L1O-4v-51j" secondAttribute="baseline" id="AfC-Fr-1mF"/>
+                    <constraint firstItem="u3L-3h-8rl" firstAttribute="top" secondItem="EKY-tO-7Ol" secondAttribute="bottom" constant="8" symbolic="YES" id="DCZ-3Y-sOW"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="EKY-tO-7Ol" secondAttribute="leading" id="TiK-wM-7FY"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="L1O-4v-51j" secondAttribute="trailing" id="Vvt-My-lXg"/>
+                    <constraint firstItem="Ase-cI-OD7" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="u3L-3h-8rl" secondAttribute="trailing" constant="8" symbolic="YES" id="aNc-2f-A4A"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="u3L-3h-8rl" secondAttribute="bottom" id="bOn-i2-b8l"/>
+                    <constraint firstItem="EKY-tO-7Ol" firstAttribute="top" secondItem="dko-4S-hUf" secondAttribute="top" id="gMm-xF-Grs"/>
+                    <constraint firstItem="L1O-4v-51j" firstAttribute="leading" secondItem="Ase-cI-OD7" secondAttribute="trailing" constant="8" symbolic="YES" id="hFt-vU-qNB"/>
+                    <constraint firstItem="L1O-4v-51j" firstAttribute="baseline" secondItem="u3L-3h-8rl" secondAttribute="baseline" id="smK-Ex-ogC"/>
+                    <constraint firstItem="dko-4S-hUf" firstAttribute="trailing" secondItem="L1O-4v-51j" secondAttribute="trailing" id="vFj-lj-76n"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <connections>
+                <outlet property="courseCode" destination="EKY-tO-7Ol" id="AYD-SZ-5TH"/>
+                <outlet property="courseTitle" destination="u3L-3h-8rl" id="5Sf-Xo-3va"/>
+                <outlet property="instructor" destination="L1O-4v-51j" id="gb7-Pz-46k"/>
+                <outlet property="location" destination="Ase-cI-OD7" id="a7w-YB-P0t"/>
+                <outlet property="time" destination="dko-4S-hUf" id="Ogm-ce-bTC"/>
+                <outlet property="type" destination="xQR-V5-Tjl" id="bgs-xp-jE3"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

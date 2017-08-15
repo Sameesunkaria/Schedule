@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33027ECC1F432034002A0F7F /* CourseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33027ECA1F432034002A0F7F /* CourseCell.xib */; };
+		33027ECE1F4329C0002A0F7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33027ECD1F4329C0002A0F7F /* Assets.xcassets */; };
+		330420BD1F41E4FB00562B3D /* ScheduleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330420BC1F41E4FA00562B3D /* ScheduleTableViewController.swift */; };
+		330420BF1F41E64C00562B3D /* CourseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330420BE1F41E64C00562B3D /* CourseCell.swift */; };
 		33114C121F41C04F00E23DBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33114C111F41C04F00E23DBF /* AppDelegate.swift */; };
 		33114C141F41C04F00E23DBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33114C131F41C04F00E23DBF /* ViewController.swift */; };
 		33114C171F41C04F00E23DBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33114C151F41C04F00E23DBF /* Main.storyboard */; };
 		33114C1A1F41C04F00E23DBF /* Schedule.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 33114C181F41C04F00E23DBF /* Schedule.xcdatamodeld */; };
-		33114C1C1F41C04F00E23DBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33114C1B1F41C04F00E23DBF /* Assets.xcassets */; };
 		33114C1F1F41C04F00E23DBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33114C1D1F41C04F00E23DBF /* LaunchScreen.storyboard */; };
+		33114C271F41C06600E23DBF /* timeTable.json in Resources */ = {isa = PBXBuildFile; fileRef = 33114C261F41C06600E23DBF /* timeTable.json */; };
+		33114C291F41CF1700E23DBF /* Table Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33114C281F41CF1700E23DBF /* Table Structs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		33027ECA1F432034002A0F7F /* CourseCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CourseCell.xib; sourceTree = "<group>"; };
+		33027ECD1F4329C0002A0F7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		330420BC1F41E4FA00562B3D /* ScheduleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleTableViewController.swift; sourceTree = "<group>"; };
+		330420BE1F41E64C00562B3D /* CourseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseCell.swift; sourceTree = "<group>"; };
 		33114C0E1F41C04F00E23DBF /* Schedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Schedule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33114C111F41C04F00E23DBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33114C131F41C04F00E23DBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		33114C161F41C04F00E23DBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		33114C191F41C04F00E23DBF /* Schedule.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Schedule.xcdatamodel; sourceTree = "<group>"; };
-		33114C1B1F41C04F00E23DBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33114C1E1F41C04F00E23DBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33114C201F41C04F00E23DBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33114C261F41C06600E23DBF /* timeTable.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = timeTable.json; sourceTree = "<group>"; };
+		33114C281F41CF1700E23DBF /* Table Structs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Table Structs.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +68,13 @@
 			children = (
 				33114C111F41C04F00E23DBF /* AppDelegate.swift */,
 				33114C131F41C04F00E23DBF /* ViewController.swift */,
+				330420BC1F41E4FA00562B3D /* ScheduleTableViewController.swift */,
+				330420BE1F41E64C00562B3D /* CourseCell.swift */,
+				33114C281F41CF1700E23DBF /* Table Structs.swift */,
+				33114C261F41C06600E23DBF /* timeTable.json */,
 				33114C151F41C04F00E23DBF /* Main.storyboard */,
-				33114C1B1F41C04F00E23DBF /* Assets.xcassets */,
+				33027ECD1F4329C0002A0F7F /* Assets.xcassets */,
+				33027ECA1F432034002A0F7F /* CourseCell.xib */,
 				33114C1D1F41C04F00E23DBF /* LaunchScreen.storyboard */,
 				33114C201F41C04F00E23DBF /* Info.plist */,
 				33114C181F41C04F00E23DBF /* Schedule.xcdatamodeld */,
@@ -99,6 +114,7 @@
 				TargetAttributes = {
 					33114C0D1F41C04F00E23DBF = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8M5NP3VM5V;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -126,8 +142,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33114C271F41C06600E23DBF /* timeTable.json in Resources */,
+				33027ECE1F4329C0002A0F7F /* Assets.xcassets in Resources */,
+				33027ECC1F432034002A0F7F /* CourseCell.xib in Resources */,
 				33114C1F1F41C04F00E23DBF /* LaunchScreen.storyboard in Resources */,
-				33114C1C1F41C04F00E23DBF /* Assets.xcassets in Resources */,
 				33114C171F41C04F00E23DBF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,8 +157,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				330420BF1F41E64C00562B3D /* CourseCell.swift in Sources */,
 				33114C141F41C04F00E23DBF /* ViewController.swift in Sources */,
+				330420BD1F41E4FB00562B3D /* ScheduleTableViewController.swift in Sources */,
 				33114C1A1F41C04F00E23DBF /* Schedule.xcdatamodeld in Sources */,
+				33114C291F41CF1700E23DBF /* Table Structs.swift in Sources */,
 				33114C121F41C04F00E23DBF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +287,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8M5NP3VM5V;
 				INFOPLIST_FILE = Schedule/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.samar.Schedule;
@@ -278,6 +300,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8M5NP3VM5V;
 				INFOPLIST_FILE = Schedule/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.samar.Schedule;
@@ -305,6 +328,7 @@
 				33114C251F41C04F00E23DBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -10,16 +10,27 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let tableFilePath = Bundle.main.url(forResource: "timeTable", withExtension: "json")
+    lazy var timeTableJSON: String = {
+        [unowned self] in
+        
+        var JSON: String?
+        if let filePath = self.tableFilePath {
+            JSON = try? String(contentsOf: self.tableFilePath ?? URL(fileURLWithPath: ""))
+        }
+        return JSON ?? ""
+    }()
+    
+    var timeTable: Table?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        //print(timeTableJSON)
+        timeTable = Table.parseTimeTableJSON(from: timeTableJSON)
+        print(timeTable!)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+    
 
 }
-

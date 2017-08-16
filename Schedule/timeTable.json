@@ -149,7 +149,7 @@
                                   "courseTitle": "Artificial Intelligence",
                                   "startTime": "1500",
                                   "endTime": "1600",
-                                  "location": "G254B",
+                                  "location": "T103",
                                   "instructor": "NT9"
                                   }
                                   ],
@@ -178,7 +178,7 @@
                                  "courseTitle": "Theory of Computation",
                                  "startTime": "1400",
                                  "endTime": "1500",
-                                 "location": "G254B",
+                                 "location": "T103",
                                  "instructor": "VG"
                                  }
                                  ],
@@ -217,7 +217,7 @@
                                "courseTitle": "Artificial Intelligence",
                                "startTime": "1400",
                                "endTime": "1500",
-                               "location": "G254B",
+                               "location": "T103",
                                "instructor": "NT9"
                                },
                                {

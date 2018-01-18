@@ -16,8 +16,8 @@
 		33114C171F41C04F00E23DBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33114C151F41C04F00E23DBF /* Main.storyboard */; };
 		33114C1A1F41C04F00E23DBF /* Schedule.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 33114C181F41C04F00E23DBF /* Schedule.xcdatamodeld */; };
 		33114C1F1F41C04F00E23DBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33114C1D1F41C04F00E23DBF /* LaunchScreen.storyboard */; };
-		33114C271F41C06600E23DBF /* timeTable.json in Resources */ = {isa = PBXBuildFile; fileRef = 33114C261F41C06600E23DBF /* timeTable.json */; };
 		33114C291F41CF1700E23DBF /* Table Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33114C281F41CF1700E23DBF /* Table Structs.swift */; };
+		333B7E722011195400FF3B58 /* timeTable.json in Resources */ = {isa = PBXBuildFile; fileRef = 333B7E712011195400FF3B58 /* timeTable.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,8 +32,8 @@
 		33114C191F41C04F00E23DBF /* Schedule.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Schedule.xcdatamodel; sourceTree = "<group>"; };
 		33114C1E1F41C04F00E23DBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33114C201F41C04F00E23DBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		33114C261F41C06600E23DBF /* timeTable.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = timeTable.json; sourceTree = "<group>"; };
 		33114C281F41CF1700E23DBF /* Table Structs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Table Structs.swift"; sourceTree = "<group>"; };
+		333B7E712011195400FF3B58 /* timeTable.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = timeTable.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +71,7 @@
 				330420BC1F41E4FA00562B3D /* ScheduleTableViewController.swift */,
 				330420BE1F41E64C00562B3D /* CourseCell.swift */,
 				33114C281F41CF1700E23DBF /* Table Structs.swift */,
-				33114C261F41C06600E23DBF /* timeTable.json */,
+				333B7E712011195400FF3B58 /* timeTable.json */,
 				33114C151F41C04F00E23DBF /* Main.storyboard */,
 				33027ECD1F4329C0002A0F7F /* Assets.xcassets */,
 				33027ECA1F432034002A0F7F /* CourseCell.xib */,
@@ -142,10 +142,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33114C271F41C06600E23DBF /* timeTable.json in Resources */,
 				33027ECE1F4329C0002A0F7F /* Assets.xcassets in Resources */,
 				33027ECC1F432034002A0F7F /* CourseCell.xib in Resources */,
 				33114C1F1F41C04F00E23DBF /* LaunchScreen.storyboard in Resources */,
+				333B7E722011195400FF3B58 /* timeTable.json in Resources */,
 				33114C171F41C04F00E23DBF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -2,236 +2,212 @@
     "tables": {
         "Third Year": {
             "groups": {
-                "COE8": {
+                "COE9": {
                     "Monday": [
                                {
-                               "courseCode": "UCS521",
+                               "courseCode": "UCS602",
                                "type": "Lecture",
-                               "courseTitle": "Artificial Intelligence",
+                               "courseTitle": "Natural Language Processing",
                                "startTime": "0800",
                                "endTime": "0900",
-                               "location": "T103",
-                               "instructor": "NT9"
+                               "location": "SH1",
+                               "instructor": "JS"
                                },
                                {
-                               "courseCode": "UCS519",
+                               "courseCode": "UCS614",
                                "type": "Lecture",
-                               "courseTitle": "Computer Architecture and Organization",
+                               "courseTitle": "Embedded System",
                                "startTime": "0900",
                                "endTime": "1000",
-                               "location": "T103",
-                               "instructor": "RUB"
+                               "location": "SH1",
+                               "instructor": "GPK"
                                },
                                {
-                               "courseCode": "UML501",
+                               "courseCode": "UCS615",
                                "type": "Lecture",
-                               "courseTitle": "Machine Learning",
+                               "courseTitle": "Digital Image Processing",
                                "startTime": "1000",
                                "endTime": "1100",
-                               "location": "T103",
-                               "instructor": "SIS"
-                               },
-                               {
-                               "courseCode": "UCS503",
+                               "location": "SH1",
+                               "instructor": "RUP"
+                               }, {
+                               "courseCode": "UTA012",
                                "type": "Lecture",
-                               "courseTitle": "Software Engineering",
+                               "courseTitle": "Entrepreneurship",
                                "startTime": "1100",
                                "endTime": "1200",
-                               "location": "T103",
-                               "instructor": "ASH"
+                               "location": "R&D1",
+                               "instructor": "VIN"
                                },
                                {
-                               "courseCode": "UCS616",
+                               "courseCode": "UCS633",
+                               "type": "Lecture",
+                               "courseTitle": "Data Analytics",
+                               "startTime": "1200",
+                               "endTime": "1300",
+                               "location": "R&D1",
+                               "instructor": "VIN"
+                               },
+                               {
+                               "courseCode": "UTA012",
                                "type": "Practical",
-                               "courseTitle": "Advanced Data Structures and Algorithms",
+                               "courseTitle": "Entrepreneurship",
                                "startTime": "1500",
                                "endTime": "1700",
-                               "location": "CAG LAB",
-                               "instructor": "RKU"
+                               "location": "F102",
+                               "instructor": "SNG"
                                }
                                ],
                     "Tuesday": [
                                 {
-                                "courseCode": "UML501",
-                                "type": "Practical",
-                                "courseTitle": "Machine Learning",
-                                "startTime": "0800",
-                                "endTime": "1000",
-                                "location": "CS6 LAB",
-                                "instructor": "RA11"
-                                },
-                                {
-                                "courseCode": "UML501",
+                                "courseCode": "UCS614",
                                 "type": "Lecture",
-                                "courseTitle": "Machine Learning",
+                                "courseTitle": "Embedded System",
                                 "startTime": "1000",
                                 "endTime": "1100",
-                                "location": "T103",
-                                "instructor": "SIS"
+                                "location": "R&D1",
+                                "instructor": "GPK"
                                 },
                                 {
-                                "courseCode": "UCS503",
+                                "courseCode": "UCS617",
                                 "type": "Lecture",
-                                "courseTitle": "Software Engineering",
+                                "courseTitle": "Microprocessor",
                                 "startTime": "1100",
                                 "endTime": "1200",
-                                "location": "T103",
-                                "instructor": "ASH"
+                                "location": "R&D1",
+                                "instructor": "MJU"
                                 },
                                 {
-                                "courseCode": "UCS521",
-                                "type": "Tutorial",
-                                "courseTitle": "Artificial Intelligence",
+                                "courseCode": "UCS602",
+                                "type": "Lecture",
+                                "courseTitle": "Natural Language Processing",
                                 "startTime": "1200",
                                 "endTime": "1300",
-                                "location": "G254B",
-                                "instructor": "NT9"
+                                "location": "SH1",
+                                "instructor": "JS"
                                 },
                                 {
-                                "courseCode": "UCS616",
+                                "courseCode": "UCS615",
                                 "type": "Lecture",
-                                "courseTitle": "Advanced Data Structures and Algorithms",
+                                "courseTitle": "Digital Image Processing",
                                 "startTime": "1400",
                                 "endTime": "1500",
-                                "location": "T103",
-                                "instructor": "RAJ"
+                                "location": "SH1",
+                                "instructor": "RUP"
                                 }
+                                
                                 ],
                     "Wednesday": [
                                   {
-                                  "courseCode": "UCS519",
-                                  "type": "Lecture",
-                                  "courseTitle": "Computer Architecture and Organization",
-                                  "startTime": "0800",
-                                  "endTime": "0900",
-                                  "location": "T103",
-                                  "instructor": "RUB"
-                                  },
-                                  {
-                                  "courseCode": "UCS701",
-                                  "type": "Lecture",
-                                  "courseTitle": "Theory of Computation",
-                                  "startTime": "0900",
-                                  "endTime": "1000",
-                                  "location": "T103",
-                                  "instructor": "VG"
-                                  },
-                                  {
-                                  "courseCode": "UCS701",
-                                  "type": "Tutorial",
-                                  "courseTitle": "Theory of Computation",
-                                  "startTime": "1100",
+                                  "courseCode": "UCS617",
+                                  "type": "Practical",
+                                  "courseTitle": "Microprocessor",
+                                  "startTime": "1000",
                                   "endTime": "1200",
-                                  "location": "G254B",
-                                  "instructor": "VG"
+                                  "location": "MAIN",
+                                  "instructor": "RKU"
                                   },
                                   {
-                                  "courseCode": "UCS616",
+                                  "courseCode": "UCS633",
                                   "type": "Lecture",
-                                  "courseTitle": "Advanced Data Structures and Algorithms",
+                                  "courseTitle": "Data Analytics",
                                   "startTime": "1300",
                                   "endTime": "1400",
-                                  "location": "T103",
-                                  "instructor": "RAJ"
+                                  "location": "R&D1",
+                                  "instructor": "VIN"
                                   },
                                   {
-                                  "courseCode": "UCS503",
+                                  "courseCode": "UCS617",
                                   "type": "Lecture",
-                                  "courseTitle": "Software Engineering",
+                                  "courseTitle": "Microprocessor",
                                   "startTime": "1400",
                                   "endTime": "1500",
-                                  "location": "T103",
-                                  "instructor": "ASH"
+                                  "location": "R&D1",
+                                  "instructor": "MJU"
                                   },
                                   {
-                                  "courseCode": "UCS521",
-                                  "type": "Lecture",
-                                  "courseTitle": "Artificial Intelligence",
+                                  "courseCode": "UCS615",
+                                  "type": "Practical",
+                                  "courseTitle": "Digital Image Processing",
                                   "startTime": "1500",
-                                  "endTime": "1600",
-                                  "location": "T103",
-                                  "instructor": "NT9"
+                                  "endTime": "1700",
+                                  "location": "UCGS 8",
+                                  "instructor": "JHB"
                                   }
+                                  
                                   ],
                     "Thursday": [
                                  {
-                                 "courseCode": "UCS616",
+                                 "courseCode": "UCS617",
                                  "type": "Lecture",
-                                 "courseTitle": "Advanced Data Structures and Algorithms",
-                                 "startTime": "1000",
-                                 "endTime": "1100",
-                                 "location": "T103",
-                                 "instructor": "RAJ"
-                                 },
-                                 {
-                                 "courseCode": "UCS519",
-                                 "type": "Lecture",
-                                 "courseTitle": "Computer Architecture and Organization",
+                                 "courseTitle": "Microprocessor",
                                  "startTime": "1100",
                                  "endTime": "1200",
-                                 "location": "T103",
-                                 "instructor": "RUB"
+                                 "location": "R&D1",
+                                 "instructor": "MJU"
                                  },
                                  {
-                                 "courseCode": "UCS701",
+                                 "courseCode": "UCS633",
                                  "type": "Lecture",
-                                 "courseTitle": "Theory of Computation",
-                                 "startTime": "1400",
-                                 "endTime": "1500",
-                                 "location": "T103",
-                                 "instructor": "VG"
+                                 "courseTitle": "Data Analytics",
+                                 "startTime": "1200",
+                                 "endTime": "1300",
+                                 "location": "R&D1",
+                                 "instructor": "VIN"
+                                 },
+                                 {
+                                 "courseCode": "UCS614",
+                                 "type": "Practical",
+                                 "courseTitle": "Embedded System",
+                                 "startTime": "1500",
+                                 "endTime": "1700",
+                                 "location": "UGCS 7",
+                                 "instructor": "NS"
                                  }
                                  ],
                     "Friday": [
                                
                                {
-                               "courseCode": "UCS701",
+                               "courseCode": "UCS614",
                                "type": "Lecture",
-                               "courseTitle": "Theory of Computation",
-                               "startTime": "0800",
-                               "endTime": "0900",
-                               "location": "T103",
-                               "instructor": "VG"
-                               },
-                               {
-                               "courseCode": "UML501",
-                               "type": "Lecture",
-                               "courseTitle": "Machine Learning",
+                               "courseTitle": "Embedded System",
                                "startTime": "0900",
                                "endTime": "1000",
-                               "location": "T103",
-                               "instructor": "SIS"
+                               "location": "R&D1",
+                               "instructor": "GPK"
                                },
                                {
-                               "courseCode": "UCS503",
+                               "courseCode": "UCS633",
                                "type": "Practical",
-                               "courseTitle": "Software Engineering",
+                               "courseTitle": "Data Analytics",
                                "startTime": "1000",
                                "endTime": "1200",
-                               "location": "T103",
-                               "instructor": "ASH"
+                               "location": "UGCS5A/UG CAG",
+                               "instructor": "SJ/SNK"
                                },
                                {
-                               "courseCode": "UCS521",
+                               "courseCode": "UCS602",
                                "type": "Lecture",
-                               "courseTitle": "Artificial Intelligence",
-                               "startTime": "1400",
-                               "endTime": "1500",
-                               "location": "T103",
-                               "instructor": "NT9"
+                               "courseTitle": "Natural Language Processing",
+                               "startTime": "1300",
+                               "endTime": "1400",
+                               "location": "SH1",
+                               "instructor": "JS"
                                },
                                {
-                               "courseCode": "UCS519",
+                               "courseCode": "UCS602",
                                "type": "Practical",
-                               "courseTitle": "Computer Architecture and Organization",
+                               "courseTitle": "Natural Language Processing",
                                "startTime": "1500",
                                "endTime": "1700",
-                               "location": "UG CS7 LAB",
-                               "instructor": "NT7"
+                               "location": "UGCS5A",
+                               "instructor": "VJ"
                                }
+                               
                                ]
                 }
             }
         }
     }
 }
+

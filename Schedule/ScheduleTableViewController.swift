@@ -27,7 +27,7 @@ class ScheduleTableViewController: UITableViewController {
     
     var dayTimeTable: [Course]? {
         get {
-            return table?.groups["COE8"]?.day[navigationController?.tabBarItem.title ?? "Monday"]
+            return table?.groups["COE9"]?.day[navigationController?.tabBarItem.title ?? "Monday"]
         }
     }
     
